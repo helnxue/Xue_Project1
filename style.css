@@ -3,8 +3,43 @@
 li {
 	text-transform: uppercase;
 	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
 	font-family: 'Roboto';
+	float: right;
 }
+
+#home {
+	text-decoration: none;
+	padding-left: 15px;
+	color: dimgray;
+}
+
+#gallery {
+	text-decoration: none;
+	padding-left: 15px;
+	color: dimgray;
+}
+
+#about {
+	text-decoration: none;
+	padding-left: 15px;
+	color: dimgray;
+}
+
+#home:hover {
+	color: darkgray;
+}
+
+
+#gallery:hover {
+	color: darkgray;
+}
+
+#about:hover {
+	color: darkgray;
+}
+
 
 #container {
 	width: 1000px;
@@ -35,11 +70,83 @@ h1 {
 }
 
 #footer {
-	display: inline;
-	float: right;
+	display: inline-block;
 	margin-left: 2px;
 	position: relative;
 	bottom: 0;
 	width: 100%;
 	height: 40px;
+	/*I have no idea why the colours of the icon become a funny colour
+	once I added the ahref attribute and made it clickable*/
+
 }
+
+#facebook {
+	float: right;
+	color: dimgray;
+	padding-left: 5px;
+}
+
+#instagram {
+	float: right;
+	color: dimgray;
+	padding-left: 5px;
+}
+
+#github {
+	float: right;
+	color: dimgray;
+	padding-left: 5px;
+}
+
+#linkedin {
+	float: right;
+	color: dimgray;
+	padding-left: 5px;
+}
+
+#twitter {
+	float: right;
+	color: dimgray;
+	padding-left: 5px;
+}
+
+#facebook:hover {
+	color: darkgray;
+}
+
+
+#instagram:hover {
+	color: darkgray;
+}
+
+#github:hover {
+	color: darkgray;
+}
+
+#home:hover {
+	color: darkgray;
+}
+
+
+#gallery:hover {
+	color: darkgray;
+}
+
+#about:hover {
+	color: darkgray;
+}
+
+#home:hover {
+	color: darkgray;
+}
+
+#linkedin:hover {
+	color: darkgray;
+}
+
+#twitter:hover {
+	color: darkgray;
+}
+
+
