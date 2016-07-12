@@ -51,21 +51,35 @@ li {
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 20px solid aliceblue;
 	font-family: 'Roboto';
 
 }
 
+#logoimage {
+	width: 35%;
+	padding-top: 80px;
+	display: block;
+	margin: auto;
+}
+
 h1 {
 	text-align: center;
-	text-transform: uppercase;
 	font-weight: 100;
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-bottom:5px;
 	padding-left: 0px;
 	padding-right: 0px;
-	border-top: 1px dotted gray;
 	border-bottom: 1px dotted gray;
+	color: #404040;
+	font-family: 'Roboto';
+
+}
+
+#image1 {
+	width: 90%;
+	padding-top: 25px;
+	display: block;
+	margin: auto;
 
 }
 
@@ -76,8 +90,6 @@ h1 {
 	bottom: 0;
 	width: 100%;
 	height: 40px;
-	/*I have no idea why the colours of the icon become a funny colour
-	once I added the ahref attribute and made it clickable*/
 
 }
 
@@ -115,7 +127,6 @@ h1 {
 	color: darkgray;
 }
 
-
 #instagram:hover {
 	color: darkgray;
 }
@@ -127,7 +138,6 @@ h1 {
 #home:hover {
 	color: darkgray;
 }
-
 
 #gallery:hover {
 	color: darkgray;
@@ -147,6 +157,13 @@ h1 {
 
 #twitter:hover {
 	color: darkgray;
+}
+
+#paragraphs {
+	width: 800px;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
